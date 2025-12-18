@@ -141,7 +141,7 @@ kubectl logs <agent-pod> -c agent 2>&1 | grep "Skipping, open :"
 
 ### Check agent configuration:
 ```bash
-kubectl exec <agent-pod> -c agent -- agent config 2>&1 | grep -i checksd
+kubectl exec <agent-pod> -c agent -- agent config 2>&1
 ```
 
 ### Check agent version:
