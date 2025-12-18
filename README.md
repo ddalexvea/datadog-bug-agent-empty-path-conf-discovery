@@ -1,0 +1,1 @@
+# datadog-bug-agent-empty-path-conf-discovery
